@@ -36,7 +36,7 @@ export default function MyResume() {
         file='./SRMResume.pdf'
         onLoadSuccess={onDocumentLoadSuccess}
       >
-        <Page  pageNumber={pageNumber} className="pdfPage"/>
+        <Page  pageNumber={pageNumber} className="d-flex justify-content-center"/>
       </Document>
       <div>
         <p className="pdfContainer">

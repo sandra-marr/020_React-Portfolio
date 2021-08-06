@@ -41,10 +41,10 @@ export function WorkCard(props) {
 
 export function DogCard(props) {
 return (
-    <div className="container-fluid row">
-        <div className="col-sm-4 mb-3">
-            <img className="rounded img-fluid responsive-img" src={props.src} alt={props.alt}/>
-        </div>
-    </div> 
+    <div className="col-sm-4 mb-3">
+        <img className="rounded img-fluid responsive-img" src={props.src} alt={props.alt}/>
+    </div>
+   
+     
 );
 }

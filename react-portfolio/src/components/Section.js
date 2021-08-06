@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import { Link } from 'react-router-dom';
 import { SkillCard, WorkCard, DogCard } from './Cards';
+import Form from './Form';
 import KidsCorner from "../images/Kids_Corner.png";
 import WeatherDashboard from "../images/Weather_Dashboard.png";
 import Scheduler from "../images/Work_Day_Scheduler.png";
@@ -186,7 +187,10 @@ export function SkillsPage() {
                 ))
             }
         </div>
+        <div className="pb-2 text-center">
+            <br></br>
         <p>For more information about my professional experience, please refer to my <Link className="text-reset" to='/resume'>resume</Link>.</p>
+        </div>
     </Container>
     );
 }
@@ -316,7 +320,7 @@ export function WorkPage() {
 
 export function ContactPage() {
     return (
-        <div>Need to add content here</div>
+        <Form />
     );
 }
 
@@ -344,10 +348,13 @@ export function DogDaysPage() {
         <Container fluid className="d-flex flex-column justify-content-center">
             <h2 className="accent pb-2 text-center">Dog Days</h2>
             <p>Meet Bentley! He is a flat-coated retriever, extremly friendly, and always up for an adventure. He is a huge part of my life, so I couldn't miss an opportunity to share the joy.</p>
-            {dogArr.map((item) => (
-                <DogCard key={item.id} src={item.src} alt={item.alt}/>
-                ))
-            }
+            <div className="container-fluid row">
+                {dogArr.map((item) => (
+                    <DogCard key={item.id} src={item.src} alt={item.alt}/>
+                    ))
+                }
+            </div> 
+            
         </Container>
     );
 }
