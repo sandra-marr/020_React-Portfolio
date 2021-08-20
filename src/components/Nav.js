@@ -4,7 +4,7 @@ import { IoMenu } from 'react-icons/io5';
 const navLinks = [ 
     {
         name: "About",
-        link: '/',
+        link: '/020_React-Portfolio/',
         id: 1,
     },
     {

@@ -22,7 +22,7 @@ export default function Routes() {
       <NavBar />
       <div className="p-3 mb-3 mainbckgrnd rounded-bottom ">
         <Switch>
-          <Route exact path="/" component={AboutPage}/>
+          <Route exact path="/020_React-Portfolio" component={AboutPage}/>
           <Route exact path="/skills" component={SkillsPage}/>
           <Route exact path="/work" component={WorkPage}/>
           <Route exact path="/contact" component={ContactPage}/>
