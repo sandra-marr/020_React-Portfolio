@@ -2,12 +2,6 @@ import Container from 'react-bootstrap/esm/Container';
 import { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
-
-const options = {
-    cMapUrl: 'cmaps/',
-    cMapPacked: true,
-    };
-
 export default function MyResume() {
     
   const [numPages, setNumPages] = useState(null);

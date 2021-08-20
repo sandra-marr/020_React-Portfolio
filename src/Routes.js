@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
@@ -13,6 +13,9 @@ import PDF from './components/PDF';
 import { AboutPage, SkillsPage, WorkPage, ContactPage, DogDaysPage } from './components/Section';
 
 export default function Routes() {
+  useEffect(() => {
+    document.title = "SRM Web";
+  });
   return (
     <Container fluid className="main-page scroll">
       <Header />
