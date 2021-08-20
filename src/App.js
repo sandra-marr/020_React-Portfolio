@@ -6,11 +6,13 @@ import Container from 'react-bootstrap/Container';
 import Header from './components/Header';
 import NavBar from './components/Nav';
 import Footer from './components/Footer';
-import PDF from './components/PDF';
 
-
-
-import { AboutPage, SkillsPage, WorkPage, ContactPage, DogDaysPage } from './components/Section';
+import AboutPage from './pages/About';
+import SkillsPage from './pages/Skills';
+import WorkPage from './pages/Work';
+import ContactPage from './pages/Contact';
+import DogDaysPage from './pages/DogDays';
+import PDF from './pages/PDF';
 
 export default function Routes() {
   useEffect(() => {
@@ -22,7 +24,7 @@ export default function Routes() {
       <NavBar />
       <div className="p-3 mb-3 mainbckgrnd rounded-bottom ">
         <Switch>
-          <Route exact path="/020_React-Portfolio" component={AboutPage}/>
+          <Route exact path="/" component={AboutPage}/>
           <Route exact path="/skills" component={SkillsPage}/>
           <Route exact path="/work" component={WorkPage}/>
           <Route exact path="/contact" component={ContactPage}/>

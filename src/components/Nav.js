@@ -1,10 +1,10 @@
 import { NavItemH } from './NavItem';
-import { IoMenu } from 'react-icons/io5';
+import { Navbar, Nav } from 'react-bootstrap';
 
 const navLinks = [ 
     {
         name: "About",
-        link: '/020_React-Portfolio/',
+        link: '/',
         id: 1,
     },
     {
@@ -32,21 +32,19 @@ const navLinks = [
 function NavBar() {
 
     return (
-        <nav className="navbar sticky-top navbar-expand-sm rounded-top">
-            <div className="container-fluid">
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <i className="nav-btn-toggle"><IoMenu /></i>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNavDropdown" aria-expanded="false">
-                    <ul className="navbar-nav">
-                        {navLinks.map((item) => (
-                            <NavItemH key={item.id} name={item.name} link={item.link} ></ NavItemH>  
-                            ))
-                        }
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <Navbar expand="sm" className="sticky-top rounded-top">
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav >
+                    {navLinks.map((item) => (
+                        <NavItemH key={item.id} name={item.name} link={item.link} ></ NavItemH>  
+                        ))
+                    }
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
+
+        
     );
 }
 

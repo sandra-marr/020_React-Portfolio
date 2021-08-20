@@ -27,7 +27,7 @@ export default function MyResume() {
   return (
     <Container className="pdfContainer">
       <Document className="pdfDocument"
-        file='./SRMResume.pdf'
+        file='./020-React-Portfolio/SRMResume.pdf'
         onLoadSuccess={onDocumentLoadSuccess}
       >
         <Page  pageNumber={pageNumber} className="d-flex justify-content-center"/>
