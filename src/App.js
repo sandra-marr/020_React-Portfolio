@@ -24,12 +24,12 @@ export default function Routes() {
       <NavBar />
       <div className="p-3 mb-3 mainbckgrnd rounded-bottom ">
         <Switch>
-          <Route exact path="/" component={AboutPage}/>
-          <Route exact path="/skills" component={SkillsPage}/>
-          <Route exact path="/work" component={WorkPage}/>
-          <Route exact path="/contact" component={ContactPage}/>
-          <Route exact path="/dogdays" component={DogDaysPage}/>
-          <Route exact path="/resume" component={PDF}/>
+          <Route exact path="/020_React-Portfolio" component={AboutPage}/>
+          <Route exact path="/020_React-Portfolio/skills" component={SkillsPage}/>
+          <Route exact path="/020_React-Portfolio/work" component={WorkPage}/>
+          <Route exact path="/020_React-Portfolio/contact" component={ContactPage}/>
+          <Route exact path="/020_React-Portfolio/dogdays" component={DogDaysPage}/>
+          <Route exact path="/020_React-Portfolio/resume" component={PDF}/>
         </Switch>
       </div> 
       <Footer />

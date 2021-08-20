@@ -4,27 +4,27 @@ import { Navbar, Nav } from 'react-bootstrap';
 const navLinks = [ 
     {
         name: "About",
-        link: '/',
+        link: '/020_React-Portfolio',
         id: 1,
     },
     {
         name: "Skills",
-        link: '/skills',
+        link: '/020_React-Portfolio/skills',
         id: 2,
     },
     {
         name: "Work",
-        link: '/work',
+        link: '/020_React-Portfolio/work',
         id: 3,
     }, 
     {
         name: "Contact",
-        link: '/contact',
+        link: '/020_React-Portfolio/contact',
         id: 4,
     },
     {
         name: "Dog Days",
-        link: '/dogdays',
+        link: '/020_React-Portfolio/dogdays',
         id: 5,
     }
 ]
