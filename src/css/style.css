@@ -130,8 +130,9 @@ align-items: center;
 }
 
 #profile {
-    width: 15%;
-    opacity: 85;
+    width: 85%;
+    height: auto;
+    align-self: center;
 }
 
 .mainbckgrnd {
@@ -215,6 +216,6 @@ align-items: center;
 
   .scroller {
     position: relative;
-    height: 320px;
+    height: 65vh;
     overflow: auto;
   }

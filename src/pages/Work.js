@@ -21,8 +21,8 @@ const workArr = [
         name: "Kid's Corner",
         src: KidsCorner,
         alt: "This is a preview of the Kid's Corner landing page.",
-        github: "https://github.com/sandra-marr/Project-1",
-        deployed: "https://sandra-marr.github.io/Project-1/",
+        github: "https://github.com/sandra-marr/Kids-Corner",
+        deployed: "https://sandra-marr.github.io/Kids-Corner",
     },
     {
         id: 2,
@@ -42,14 +42,6 @@ const workArr = [
     },
     {
         id: 4,
-        name: "Horiseon",
-        src: Horiseon,
-        alt: "This is a preview of Horiseon's landing page.",
-        github: "https://github.com/sandra-marr/001_Refactor/",
-        deployed: "https://sandra-marr.github.io/001_Refactor/",
-    },
-    {
-        id: 5,
         name: "Password Generator",
         src: Password,
         alt: "This is a preview of the Password Generator App.",
@@ -57,7 +49,7 @@ const workArr = [
         deployed: "https://sandra-marr.github.io/003_Password-Generator/",
     },
     {
-        id: 6,
+        id: 5,
         name: "Code Quiz",
         src: CodeQuiz,
         alt: "This is a preview of the Code Quiz App.",
@@ -65,7 +57,7 @@ const workArr = [
         deployed: "https://sandra-marr.github.io/004_Code-Quiz/",
     },
     {
-        id: 7,
+        id: 6,
         name: "README Generator",
         src: ReadMe,
         alt: "This is a preview of the README Generator App.",
@@ -73,15 +65,7 @@ const workArr = [
         deployed: "Command Line App",
     },
     {
-        id: 8,
-        name: "Team Profile Generator",
-        src: TeamProfile,
-        alt: "This is a preview of the Team Profile Generator App.",
-        github: "https://github.com/sandra-marr/010_Team-Profile-Generator",
-        deployed: "Command Line App",
-    },
-    {
-        id: 9,
+        id: 7,
         name: "Note Taker",
         src: NoteTaker,
         alt: "This is a preview of the Note Note-Taker App.",
@@ -89,7 +73,7 @@ const workArr = [
         deployed: "https://peaceful-basin-67305.herokuapp.com/",
     },
     {
-        id: 10,
+        id: 8,
         name: "Employee Tracker",
         src: EmployeeTracker,
         alt: "This is a preview of the Employee Tracker App.",
@@ -97,7 +81,7 @@ const workArr = [
         deployed: "Command Line App",
     },
     {
-        id: 11,
+        id: 9,
         name: "E-Commerce Backend",
         src: ECommerce,
         alt: "This is a preview of the E-Commerce Back-End App.",
@@ -105,7 +89,7 @@ const workArr = [
         deployed: "Command Line App",
     },
     {
-        id: 12,
+        id: 10,
         name: "MVC Tech Blog",
         src: TechBlog,
         alt: "This is a preview of the MVC Tech Blog App.",
@@ -113,7 +97,7 @@ const workArr = [
         deployed: "https://desolate-dusk-70425.herokuapp.com/",
     },
     {
-        id: 13,
+        id: 11,
         name: "All About That Art",
         src: AATA,
         alt: "This is a preview of the All About That Art Web App.",
