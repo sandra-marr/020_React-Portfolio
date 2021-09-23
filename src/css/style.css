@@ -151,6 +151,16 @@ align-items: center;
     width: 95%;
 }
 
+.workbackground {
+    background-color:  var(--light);
+    color: var(--dark);
+    width: 100%;
+    border-radius: .25em;
+}
+.workbackground a {
+    color: inherit;
+}
+
 .preview {
     background-color: inherit;
     color: inherit;
