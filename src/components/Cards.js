@@ -22,6 +22,10 @@ export function WorkCard(props) {
                         <h5 className="card-title">{props.name}</h5>
                         <a href={props.deployed} target="_blank" rel="noreferrer">Deployed Application</a>
                         <a href={props.github} target="_blank" rel="noreferrer">GitHub Repository</a>
+                        <br></br>
+                        <p>{props.description}</p>
+                        <br></br>
+                        <p>{props.languages}</p>
                     </div>
                 </div>
             </div>
