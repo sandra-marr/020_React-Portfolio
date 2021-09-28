@@ -29,6 +29,8 @@ const workArr = [
         alt: "This is a preview of the Weather Dashboard App.",
         github: "https://github.com/sandra-marr/006_Weather-Dashboard/",
         deployed: "https://sandra-marr.github.io/006_Weather-Dashboard/",
+        languages: "",
+        description:""
     },
     {
         id: 3,
@@ -37,6 +39,8 @@ const workArr = [
         alt: "This is a preview of the Work Day Scheduler App.",
         github: "https://github.com/sandra-marr/005_Work-Day-Scheduler/",
         deployed: "https://sandra-marr.github.io/005_Work-Day-Scheduler/",
+        languages: "",
+        description:"An online Daily Planner that allows for user input into specific time blocks, and utilizes local storage to save the user data."
     },
     {
         id: 4,
@@ -45,6 +49,8 @@ const workArr = [
         alt: "This is a preview of the Password Generator App.",
         github: "https://github.com/sandra-marr/003_Password-Generator/",
         deployed: "https://sandra-marr.github.io/003_Password-Generator/",
+        languages: "",
+        description:""
     },
     {
         id: 5,
@@ -53,6 +59,8 @@ const workArr = [
         alt: "This is a preview of the Code Quiz App.",
         github: "https://github.com/sandra-marr/004_Code-Quiz/",
         deployed: "https://sandra-marr.github.io/004_Code-Quiz/",
+        languages: "",
+        description:""
     },
     {
         id: 6,
@@ -61,6 +69,8 @@ const workArr = [
         alt: "This is a preview of the README Generator App.",
         github: "https://github.com/sandra-marr/009_Readme-Generator",
         deployed: "Command Line App",
+        languages: "",
+        description:""
     },
     {
         id: 7,
@@ -69,6 +79,8 @@ const workArr = [
         alt: "This is a preview of the Note Note-Taker App.",
         github: "https://github.com/sandra-marr/011_Express.js-NoteTaker",
         deployed: "https://peaceful-basin-67305.herokuapp.com/",
+        languages: "",
+        description:""
     },
     {
         id: 8,
@@ -77,6 +89,8 @@ const workArr = [
         alt: "This is a preview of the Employee Tracker App.",
         github: "https://github.com/sandra-marr/012_MySQL-Employee-Tracker",
         deployed: "Command Line App",
+        languages: "",
+        description:""
     },
     {
         id: 9,
@@ -85,6 +99,8 @@ const workArr = [
         alt: "This is a preview of the E-Commerce Back-End App.",
         github: "https://github.com/sandra-marr/013_ORM-E-Commerce-Back-End",
         deployed: "Command Line App",
+        languages: "",
+        description:""
     },
     {
         id: 10,
@@ -93,6 +109,8 @@ const workArr = [
         alt: "This is a preview of the MVC Tech Blog App.",
         github: "https://github.com/sandra-marr/014_MVC-Tech-Blog",
         deployed: "https://desolate-dusk-70425.herokuapp.com/",
+        languages: "",
+        description:""
     },
     {
         id: 11,
@@ -101,6 +119,8 @@ const workArr = [
         alt: "This is a preview of the All About That Art Web App.",
         github: "https://github.com/sandra-marr/P2_All-About-That-Art",
         deployed: "https://stark-badlands-81359.herokuapp.com/",
+        languages: "",
+        description:""
     }
 ]
 

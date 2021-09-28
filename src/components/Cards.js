@@ -1,9 +1,8 @@
-import {useState} from 'react';
 
 export function SkillCard(props) {
     return (
         <div className="card m-1 cardbackground">
-                <div className="card-body">
+                <div className="card-body skillAlign">
                     {props.name}
                 </div>
         </div>

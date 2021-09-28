@@ -194,6 +194,11 @@ align-items: center;
     background: radial-gradient(circle, rgba(218,222,212,1) 0%, rgba(218,222,212,1) 50%, rgba(60,64,61,1) 90%);
 }
 
+.skillAlign {
+    display: flex;
+    align-items: center;
+}
+
 @media only screen and (max-width: 576px) {
     body {
         font-size: .75rem;
