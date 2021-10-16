@@ -1,5 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import profile from '../images/IMG_1868.jpeg'
+import { Link } from 'react-router-dom';
 
 export default function AboutPage() {
     const style = {
@@ -21,6 +22,7 @@ export default function AboutPage() {
             <p>
             Outside of work, you can find me spending time outside with my husband and our dog. We love taking quick day hikes through Discovery Park in Seattle, and sailing out on the Puget Sound. Anything that gets us moving and in the sun is a plus! I'm also a big fan of Crossfit and have found a great community at the local box, Valkyrie Strength and Conditioning.
             </p>
+            <p>For more information about my professional experience, please refer to my <Link className="text-reset" to='/020_React-Portfolio/SRMResume.pdf' target="_blank">resume</Link>.</p>
             <div classNamr="container" style={style}>
                 <img className="m-2" alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
                 <img className="m-2" alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
