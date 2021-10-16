@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/020_React-Portfolio/static/css/main.473fc57b.chunk.css",
-    "main.js": "/020_React-Portfolio/static/js/main.4e459ffa.chunk.js",
-    "main.js.map": "/020_React-Portfolio/static/js/main.4e459ffa.chunk.js.map",
+    "main.js": "/020_React-Portfolio/static/js/main.9915de4d.chunk.js",
+    "main.js.map": "/020_React-Portfolio/static/js/main.9915de4d.chunk.js.map",
     "runtime-main.js": "/020_React-Portfolio/static/js/runtime-main.6f056a8f.js",
     "runtime-main.js.map": "/020_React-Portfolio/static/js/runtime-main.6f056a8f.js.map",
     "static/css/2.4be38407.chunk.css": "/020_React-Portfolio/static/css/2.4be38407.chunk.css",
-    "static/js/2.c02b5f97.chunk.js": "/020_React-Portfolio/static/js/2.c02b5f97.chunk.js",
-    "static/js/2.c02b5f97.chunk.js.map": "/020_React-Portfolio/static/js/2.c02b5f97.chunk.js.map",
+    "static/js/2.c35072d0.chunk.js": "/020_React-Portfolio/static/js/2.c35072d0.chunk.js",
+    "static/js/2.c35072d0.chunk.js.map": "/020_React-Portfolio/static/js/2.c35072d0.chunk.js.map",
     "1906998c7343a19a21d96c3c4cec02d1.js": "/020_React-Portfolio/1906998c7343a19a21d96c3c4cec02d1.js",
     "1906998c7343a19a21d96c3c4cec02d1.js.LICENSE.txt": "/020_React-Portfolio/1906998c7343a19a21d96c3c4cec02d1.js.LICENSE.txt",
     "index.html": "/020_React-Portfolio/index.html",
     "static/css/2.4be38407.chunk.css.map": "/020_React-Portfolio/static/css/2.4be38407.chunk.css.map",
     "static/css/main.473fc57b.chunk.css.map": "/020_React-Portfolio/static/css/main.473fc57b.chunk.css.map",
-    "static/js/2.c02b5f97.chunk.js.LICENSE.txt": "/020_React-Portfolio/static/js/2.c02b5f97.chunk.js.LICENSE.txt",
+    "static/js/2.c35072d0.chunk.js.LICENSE.txt": "/020_React-Portfolio/static/js/2.c35072d0.chunk.js.LICENSE.txt",
     "static/media/AllAboutThatArt.e2f0485d.png": "/020_React-Portfolio/static/media/AllAboutThatArt.e2f0485d.png",
     "static/media/CodeQuiz.d07992f4.png": "/020_React-Portfolio/static/media/CodeQuiz.d07992f4.png",
     "static/media/FitnessTracker.d2a2e744.gif": "/020_React-Portfolio/static/media/FitnessTracker.d2a2e744.gif",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.6f056a8f.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.c02b5f97.chunk.js",
+    "static/js/2.c35072d0.chunk.js",
     "static/css/main.473fc57b.chunk.css",
-    "static/js/main.4e459ffa.chunk.js"
+    "static/js/main.9915de4d.chunk.js"
   ]
 }
